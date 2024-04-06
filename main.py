@@ -47,7 +47,6 @@ print('o dobro do numeoro digitado é: {}, o triplo é: {} e a raiz quadrada é:
 
 # 007. DESENVOLVA UM PROGRAMA QUE LEIA AS DUAS NOTAS DE UM ALUNO, CALCULE E MOSTRE SUA MÉDIA.
 """
-
 nota1 = float(input('digite a primeira nota: '))
 nota2 = float(input('digite a segunda nota: '))
 media = (nota1 + nota2) / 2
@@ -56,10 +55,35 @@ print('Com a primeira nota sendo {:.1f} e a segunda nota sendo {:.1f}, a média 
 """
 
 # 008. ESCREVA UM PROGRAMA QUE LEIA UM VALOR EM METROS E O EXIBA CONVERTIDO EM CENTIMETROS E MILIMETROS.
+"""
+valor_metros = float(input('digite o valor em metros para ser convertido em centimetros e em milimetros: '))
+centimetro = valor_metros * 100
+milimetro = valor_metros * 1000
+print('Valor de {:.2f} metros são {} em centimetros e {} em milimetros'.format(valor_metros, centimetro, milimetro))
+"""
 
 # 009. FAÇA UM PROGRAMA QUE LEIA UM NUMERO INTEIRO QUALQUER E MOSTRE NA TELA SUA TABUADA.
+"""
+num = int(input('digite um numero inteiro: '))
+numx1 = (num * 1)
+numx2 = (num * 2)
+numx3 = (num * 3)
+numx4 = (num * 4)
+numx5 = (num * 5)
+numx6 = (num * 6)
+numx7 = (num * 7)
+numx8 = (num * 8)
+numx9 = (num * 9)
+numx10 = (num * 10)
+print('A taboada do numero é \n {} \n {} \n {} \n {} \n {} \n {} \n {} \n {} \n {} \n {}'.format(numx1, numx2, numx3, numx4, numx5, numx6, numx7, numx8, numx9, numx10))
+"""
 
 # 010. CRIE UM PROGRAMA QUE LEIA QUANTO DINHEIRO UMA PESSOA TEM NA CARTEIRA E MOSTRE QUANTOS DOLARES ELA PODE COMPRAR. CONSIDE US$1,00 = R$3,27
+dinheiro = float(input('digite o valor que você tem: '))
+conversao = dinheiro / 3.27
+
+
+print('você consegue comprar US${:.2f}'.format(conversao))
 
 # 011. FAÇA UM PROGRAMA QUE LEIA A LARGURA E A AUTURA DE UMA PAREDE EM METROS, CALCULE A SUA AREA E A QUANTIDADE DE TINTA NECESSARIA PARA PINTA-LA, SABENDO QUE CADA LITRO DE TINTA, PINTA UMA AREA DE 2m².
 
