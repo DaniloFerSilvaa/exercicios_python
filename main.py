@@ -79,18 +79,42 @@ print('A taboada do numero é \n {} \n {} \n {} \n {} \n {} \n {} \n {} \n {} \n
 """
 
 # 010. CRIE UM PROGRAMA QUE LEIA QUANTO DINHEIRO UMA PESSOA TEM NA CARTEIRA E MOSTRE QUANTOS DOLARES ELA PODE COMPRAR. CONSIDE US$1,00 = R$3,27
+"""
 dinheiro = float(input('digite o valor que você tem: '))
 conversao = dinheiro / 3.27
 
-
 print('você consegue comprar US${:.2f}'.format(conversao))
+"""
 
 # 011. FAÇA UM PROGRAMA QUE LEIA A LARGURA E A AUTURA DE UMA PAREDE EM METROS, CALCULE A SUA AREA E A QUANTIDADE DE TINTA NECESSARIA PARA PINTA-LA, SABENDO QUE CADA LITRO DE TINTA, PINTA UMA AREA DE 2m².
+"""
+largura = float(input('digite a largura em metros: '))
+altura = float(input('digite a altura em metros: '))
+
+area = (largura * altura)
+
+litros_tinta = area / 2
+
+print('É necessario {:.2f} litros de tinta'.format(litros_tinta))
+"""
 
 # 012. FAÇA UM ALGORITIMO QUE LEIA O PREÇO DE UM PRODUTO E MOSTRE SEU NOVO PREÇO, COM 5% DE DESCONTO.
+"""
+preco = float(input('digite o valor que deja aplicar o desconto de 5%: '))
 
-# 013. FAÇA UM ALGORITIMO QUE LEIA O SALARIO DE UM FUNCIONARIO E MOSTR SEU NOVO SALARIO, COM 15% DE AUMENTO.
+preco_com_desconto = preco - (preco * 5 / 100)
 
+print('O valor com desconto fica {:.2f} reais'.format(preco_com_desconto))
+"""
+
+# 013. FAÇA UM ALGORITIMO QUE LEIA O SALARIO DE UM FUNCIONARIO E MOSTRE SEU NOVO SALARIO, COM 15% DE AUMENTO.
+"""
+salario = float(input('Qual o valor do salario que deseja aumentar? '))
+
+salario_atualizado = salario + (salario * 15 / 100)
+
+print('Novo salario do funcionario é {:.2f}'.format(salario_atualizado))
+"""
 
 ### CURIOSIDADES PROPRIAS
 
