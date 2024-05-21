@@ -138,10 +138,36 @@ preco = (diasAlugados * 60) + (kmPercorrido * 0.15)
 print('Sabendo que o carro percorreu {:.2f}Km e foram {} dias alugados o Total a pagar é R${:.2f}'.format(kmPercorrido, diasAlugados, preco))
 """
 
-## 016. 
+## 016. Crie um programa que leia um numero Real qualquer pelo teclado e mostre na tela a sua porção Inteira.
+# EX: Numero 6.127, tem a parte inteira 6.
 
 
 
+## 017. Faça um programa que leia o comprimento do cateto oposto e do cateto adjacente de um triandulo retangulo, 
+# calcule e mostre o comprimento da hipotenusa.
+
+
+
+## 018. Faça um programa que leia um angulo qualquer e mostre na tela o valor do seno, 
+# cosseno e tangente desse angulo.
+
+
+
+## 019. Um proffesor quer sortear um dos seus quatro alunos para apagar o quadro. 
+# Faça um programa que ajude ele, lendo o nome deles e escrevendo o nome do escolhido.
+
+
+
+## 020. O mesmo professor do desafio anterior quer sortear a ordem de apresentação de trabalhos dos alunos.
+# Faça um programa que leia o nome dos quatro alunos e mostre a ordem sorteada.
+
+
+
+## 021. Faça um programa em python que abra e reproduza o Áudio de um arquivo MP3.
+
+
+
+## 022. 
 ### CURIOSIDADES PROPRIAS
 
 ## ARREDONDAMENTO DO ULTIMO NUMERO DECIMAL, CASO >= 5 ARREDONDA PARA CIMA, CASO < 5 ARREDONDA PARA BAIXO
